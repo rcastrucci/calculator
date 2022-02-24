@@ -1,0 +1,82 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: lighter;
+  }
+  
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(55, 55, 55, 1);
+    border-collapse: collapse; 
+}
+
+.max-width {
+    max-width: 300px;
+}
+
+.border-calc {
+    border-radius: 1rem;
+}
+
+.border-calc-bottom-left {
+    border-bottom-left-radius: 1rem;
+}
+
+.border-calc-bottom-right {
+    border-bottom-right-radius: 1rem;
+}
+
+.output {
+    border-collapse: collapse;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.06rem;
+}
+
+.previous-operand {
+    height: 30px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom: none;
+    font-size: 1rem;
+    color: lightgray;
+}
+
+.current-operand {
+    height: 50px;
+    border-bottom: none;
+    border-top: none;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.btn-draw {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem;
+    border-collapse: collapse;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.06rem;
+}
+
+.bg-tangerine {
+    background-color: #FF9F0C;
+}
+
+.bg-tungsten {
+    background-color: #2D2D30;
+}
+
+.bg-charcoal-grey {
+    background-color: #424244;
+}
+
+.bg-slate-grey {
+    background-color: #616163;
+}
