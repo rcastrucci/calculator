@@ -3,4 +3,4 @@ A simple and basic calculator with apple look
 Built with bootstrap and some custom css
 
 **Check it out online**
-https://rcastrucci.com/dev/projects/calculator
+https://rcastrucci.github.io/calculator
